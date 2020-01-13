@@ -6,6 +6,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/automacaoTeste/feature/apiRest.feature", glue = {"automacaoTeste"},
-                    monochrome = true, dryRun = true)
+                    monochrome = true, dryRun = false)
 public class TesteApiRestAssured {
 }
