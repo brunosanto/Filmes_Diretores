@@ -16,7 +16,7 @@ public class TestRule {
         System.setProperty("webdriver.chrome.driver", "");
 
         String os = System.getProperty("os.name").toLowerCase();
-        String pathDriver = System.getProperty("user.dir") + "/src/test/java/automacaoTeste/drivers/";
+        String pathDriver = System.getProperty("user.dir") + "/resources/drivers/";
 
         if (driver == null) {
             ChromeOptions chromeOptions = new ChromeOptions();

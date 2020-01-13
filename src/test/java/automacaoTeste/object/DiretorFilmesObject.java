@@ -8,7 +8,7 @@ public class DiretorFilmesObject {
     public DiretorFilmesObject() {
     }
 
-    public void DiretorFilmesObject(String nomeDiretor, String nomeFilme) {
+    public DiretorFilmesObject(String nomeDiretor, String nomeFilme) {
         this.nomeDiretor = nomeDiretor;
         this.nomeFilme = nomeFilme;
     }
